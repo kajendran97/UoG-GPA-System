@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UOG.Controller">
+   <children>
+      <ImageView fitHeight="148.0" fitWidth="616.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UOGlogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="terminate" layoutX="473.0" layoutY="591.0" mnemonicParsing="false" onAction="#terminateApp" prefHeight="27.0" prefWidth="100.0" text="Exit" />
+      <TableView fx:id="finalDetails" layoutX="28.0" layoutY="134.0" prefHeight="443.0" prefWidth="758.0">
+        <columns>
+          <TableColumn fx:id="sName" prefWidth="107.0" text="Student Name" />
+          <TableColumn fx:id="sID" prefWidth="95.0" text="Student ID" />
+            <TableColumn fx:id="finalGPA" prefWidth="205.0" text="GPA" />
+            <TableColumn fx:id="degreeTitle" prefWidth="350.0" text="Degree Title" />
+        </columns>
+      </TableView>
+      <Button fx:id="LoadButton" layoutX="376.0" layoutY="591.0" mnemonicParsing="false" onAction="#finalStudentTable" text="Load table" visible="false" />
+      <Button fx:id="tologin" layoutX="337.0" layoutY="591.0" mnemonicParsing="false" onAction="#toLogin" text="Return to Menu" />
+   </children>
+</AnchorPane>

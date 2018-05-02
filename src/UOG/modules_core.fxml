@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="650.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UOG.Controller">
+   <children>
+      <ImageView fitHeight="148.0" fitWidth="616.0" layoutX="17.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UOGlogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="117.0" layoutY="122.0" text="Module Informations - CORE" textFill="#bfbaba">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="257.0" text="Database Systems" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="337.0" text="Computer Networks and Distributed Systems" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="377.0" text="Advance topics in Computer Graphics" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="417.0" text="Artficial Intelligence" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="297.0" text="Operating Systems Design" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="457.0" text="Software Engineerig" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mod1" layoutX="530.0" layoutY="255.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod2" layoutX="530.0" layoutY="295.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod3" layoutX="530.0" layoutY="335.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod4" layoutX="530.0" layoutY="375.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod5" layoutX="530.0" layoutY="415.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod6" layoutX="530.0" layoutY="455.0" prefHeight="27.0" prefWidth="71.0" />
+      <Button layoutX="502.0" layoutY="650.0" mnemonicParsing="false" onAction="#inputCoreModDetails" prefHeight="27.0" prefWidth="100.0" text="Continue" />
+      <Label layoutX="122.0" layoutY="497.0" text="Special Topics in Computer Science" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="537.0" text="Laboratory Work" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="577.0" text="Seminar" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mod7" layoutX="530.0" layoutY="495.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod8" layoutX="530.0" layoutY="535.0" prefHeight="27.0" prefWidth="71.0" />
+      <TextField fx:id="mod9" layoutX="530.0" layoutY="575.0" prefHeight="27.0" prefWidth="71.0" />
+      <Label layoutX="38.0" layoutY="257.0" text="SC531" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="297.0" text="SC535" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="337.0" text="SC537" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="377.0" text="SC539" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="417.0" text="SC538" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="457.0" text="SC546" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="497.0" text="SC554" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="537.0" text="SC555" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="577.0" text="SC597" textFill="#9a8c8c">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="193.0" text="Module" textFill="#bfbaba">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="213.0" text="Code" textFill="#bfbaba">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="202.0" text="Module Name" textFill="#bfbaba">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="204.0" text="Marks Obtained" textFill="#bfbaba">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
