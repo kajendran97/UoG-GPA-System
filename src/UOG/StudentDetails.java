@@ -7,6 +7,7 @@ package UOG;
 public class StudentDetails {
 
     private String name;
+    private String surname;
     private int age;
     private String student_id;
     private String email;
@@ -43,6 +44,26 @@ public class StudentDetails {
         return address;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "StudentDetails{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                ", student_id='" + student_id + '\'' +
+                ", email='" + email + '\'' +
+                ", contact_no=" + contact_no +
+                ", address='" + address + '\'' +
+                '}';
+    }
 
     /**
      *This is a function which assigns details of students to the ArrayList
