@@ -14,6 +14,7 @@ public class Enrollment {
     private String studentDegree;
     private String studentName;
     private String studentId;
+    private Date enrolmentDate;
 
     //getting core module details
     public CoreModDetails getCoreModule() {
@@ -48,6 +49,14 @@ public class Enrollment {
     //getting student ID
     public String getStudentId() {
         return studentId;
+    }
+
+    public Date getEnrolmentDate() {
+        return enrolmentDate;
+    }
+
+    public void setEnrolmentDate(Date enrolmentDate) {
+        this.enrolmentDate = enrolmentDate;
     }
 
     /**
@@ -271,4 +280,17 @@ public class Enrollment {
         return title;
     }
 
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Enrollment{" +
+                "coreModule=" + coreModule +
+                ", optModule=" + optModule +
+                ", student=" + student +
+                ", StudentFinalGPA=" + StudentFinalGPA +
+                ", studentDegree='" + studentDegree + '\'' +
+                ", studentName='" + studentName + '\'' +
+                ", studentId='" + studentId + '\'' +
+                ", enrolmentDate=" + enrolmentDate +
+                '}';
+    }
 }
