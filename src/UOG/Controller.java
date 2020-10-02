@@ -115,7 +115,7 @@ public class Controller {
             alert2.setHeaderText("No Student Details Found");
             alert2.setContentText("Please first add Student details to the Database");
             alert2.showAndWait();
-
+            System.out.println("");
         }
     }
 
